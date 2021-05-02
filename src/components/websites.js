@@ -1,8 +1,8 @@
 import {
-    Card,
-    CardHeader,
-    CardContent,
-    CardMedia
+    Card
+    // CardHeader,
+    // CardContent,
+    // CardMedia
 } from '@material-ui/core';
 import {projects} from './styles'
 
