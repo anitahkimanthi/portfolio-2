@@ -1,0 +1,71 @@
+.MuiAvatar-img {
+  width: auto !important;
+  height: auto !important;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  text-align: left;
+  margin: 0;
+}
+
+.footer {
+  background-color: #f1f1f1;
+}
+.whatido {
+  padding: 2rem 0;
+}
+
+.MuiLinearProgress-bar{
+  background-color: #71180C !important;
+}
+.centerColumn{
+  background-color: rgb(2, 2, 31);
+  color: #cecece !important;
+  padding: 2% 0;
+}
+.centerColumn p{
+  color: #b43322 !important
+}
+.centerColumn span{
+  margin-bottom: 10px !important;
+}
+.centerColumn .heading{
+  display: flex
+}
+.centerColumn .heading .tag{
+  background-color: #71180C;
+  padding: 12px 17px;
+  border-radius: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.centerColumn span{
+ font-size: 14px;
+}
+
+.centerColumn p{
+  margin-top: 15px;
+}
+
+/* banner styles */
+.banner img{
+width : 100%;
+}
+
+.row{
+  margin: 0 !important;
+}
+
+/* footer styles */
+.social{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.introduction{
+  padding: 20vh;
+  color: #ffffff;
+  text-align: center;
+}
