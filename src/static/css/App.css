@@ -8,21 +8,37 @@ body {
   text-align: left;
   margin: 0;
 }
-
-.footer {
-  background-color: #f1f1f1;
+/* header styles */
+.header a:hover{
+text-decoration: none;
+color : #71180C
 }
+.header a{
+  color : inherit
+}
+
+/* banner styles */
+.banner img{
+width : 100%;
+}
+
+
+.row{
+  margin: 0 !important;
+}
+
+/* about styles */
 .whatido {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
-.MuiLinearProgress-bar{
-  background-color: #71180C !important;
+.about h1{
+  color: #4b4b4b
 }
 .centerColumn{
-  background-color: rgb(2, 2, 31);
+  background-color: #020235;
   color: #cecece !important;
-  padding: 2% 0;
+  padding: 0 0 2% 0;
 }
 .centerColumn p{
   color: #b43322 !important
@@ -31,8 +47,11 @@ body {
   margin-bottom: 10px !important;
 }
 .centerColumn .heading{
-  display: flex
+  display: flex;
+  font-size: 5vh;
+  margin-top: 10%;
 }
+
 .centerColumn .heading .tag{
   background-color: #71180C;
   padding: 12px 17px;
@@ -47,17 +66,19 @@ body {
 .centerColumn p{
   margin-top: 15px;
 }
-
-/* banner styles */
-.banner img{
-width : 100%;
-}
-
-.row{
-  margin: 0 !important;
+/* skills styles */
+.MuiLinearProgress-bar{
+  background-color: #71180C !important;
 }
 
 /* footer styles */
+.footer{
+  background-color: #020235;
+  color: #ffffff
+}
+.footer p{
+  color: #c2c2c2;
+}
 .social{
   text-align: center;
   display: flex;
@@ -65,7 +86,63 @@ width : 100%;
 }
 
 .introduction{
-  padding: 20vh;
   color: #ffffff;
   text-align: center;
+}
+@media only screen  and (max-width: 567px){
+  .introduction{
+    padding: 30% 0 10% 0;
+  }
+}
+@media only screen  and (min-width: 568px){
+  .introduction{
+    padding: 10rem 0 7rem 0;
+  }
+}
+.introduction h1{
+  font-size: 4vw;
+  margin-bottom: 0 !important;
+}
+.about{
+  padding-top: 2%;
+}
+
+/* projects */
+.projectCard{
+  height: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+.projects .heading{
+  font-size: 7vh;
+  color: #4b4b4b
+}
+.projectCard a:hover{
+  text-decoration: none;
+}
+.projectCard .cardInfo:hover{
+background-color: none !important;
+}
+.websites{
+  padding: 4% 0 ;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+.cardFooter{
+  background-color: #dfdfdf;
+}
+.projects{
+  margin: 0 auto;
+}
+.cardInfo{
+  background-color: #f5f4f4!important;
+}
+
+.projectCard .cardFooter a:hover{
+  color: #71180C !important;
+  text-decoration: none;
+  background-color: none !important;
+}
+.cardFooter a span{
+  color: #71180C !important
 }

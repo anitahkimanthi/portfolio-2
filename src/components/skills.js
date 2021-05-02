@@ -8,7 +8,7 @@ function Skills (props) {
   const skillsData = data.skills
 
   return (
-    <div className='col-12 centerColumn'>
+    <div className='col-12 centerColumn' id="skills">
       <div className='row justify-content-center'>
         <div className='col-12 col-md-10 centerColumn'>
           <div className='row no-gutters'>

@@ -1,7 +1,14 @@
 import FacebookIcon from '@material-ui/icons/Facebook'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import EmailIcon from '@material-ui/icons/Email'
-import { footer } from '../components/styles'
+import TwitterIcon from '@material-ui/icons/Twitter'
+
+// images
+import club from "../static/images/projects/club.png"
+import asembo from "../static/images/projects/asembo.png"
+import god from "../static/images/projects/god.png"
+import music from "../static/images/projects/music.png"
+import scraj from "../static/images/projects/scraj.png"
+import wine from "../static/images/projects/wine.png"
 
 export const data =  {
     about : {
@@ -11,7 +18,7 @@ export const data =  {
      },
 
     footer : {
-        description : "If you have a project that you want to get started, think you need my help with something, a business seeking an efficient web developer! I'm here for you. Email or send me a direct message on my social media",
+        description : "If you have a project that you want to get started, think you need my help with something, a business seeking an efficient web developer! I'm here for you.",
         social : [
             {
                 title : "facebook",
@@ -24,9 +31,9 @@ export const data =  {
                 url : "https://www.linkedin.com/in/anitahkimanzi/"
             },
             {
-                title : "Email address",
-                icon : <EmailIcon/>,
-                url : "mailto:anitakimanzi@gmail.com? subject=subject text"
+                title : "Twitter",
+                icon : <TwitterIcon/>,
+                url : "https://twitter.com/annykimaa"
             }
         ]
 
@@ -40,15 +47,15 @@ export const data =  {
         },
         {
             text : "About",
-            url : "/about"
+            url : "/#about"
         },
         {
             text : "skills",
-            url : "/skills"
+            url : "/#skills"
         },
         {
             text : "Projects",
-            url : "/portfolio"
+            url : "/#portfolio"
         }
     
     ],
@@ -98,7 +105,45 @@ export const data =  {
                 tag : "70"
             }
         ]
-    }
+    },
+    projects : [
+        {
+            image : club,
+            title : "Club",
+            link : "https://openinstitute-university-club.netlify.app/home",
+            description : "Dummy club website"
+        },
+        {
+            image : scraj,
+            title : "Scrajhomes Limited",
+            link : "https://scrajhomes.com/",
+            description : "Property listing website"
+        },
+        {
+            image : wine,
+            title : "Wine shop",
+            link : "https://shopwine.netlify.app",
+            description : "Dummy wine online shop"
+        },
+        {
+            image : god,
+            title : "God's Palace International",
+            link : "https://godspalaceinternational.netlify.app/",
+            description : "ChUrch"
+        },
+        {
+            image : music,
+            title : "Music Finder",
+            link : "https://search-music.netlify.app/",
+            description : "Find any song by name or artist"
+        },
+        {
+            image : asembo,
+            title : "Asembo Softwares",
+            link : "https://asembosoftwares.co.ke/",
+            description : "Software development company"
+        },
+    ]
 }
 
  

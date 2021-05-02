@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import {
   AppBar,
   Divider,
@@ -21,19 +22,22 @@ import logo from '../static/images/logos/l1.png'
 
 const Sidebar = props => {
   console.log(props)
+  const classes = headerStyles()
   return (
-    <div className={headerStyles().drawer}>
+    <div className={classes.drawer}>
       <CloseIcon
-        className={headerStyles().close}
+        className={classes.close}
         onClick={props.handleOpenMenu}
       />
 
       <List>
         {data.header.map((item, index) => (
-          <ListItem key={index}>
-            <ListItemText primary={item.text} />
+          <a href={item.url} key={index} className={classes.link}>
+            <ListItem>
+              <ListItemText primary={item.text} />
+            </ListItem>
             <Divider />
-          </ListItem>
+          </a>
         ))}
       </List>
     </div>
@@ -63,6 +67,7 @@ const Nav = () => {
               className={classes.menuButton}
             ></MenuIcon>
             <Typography className={classes.brand}>
+              <Link to="/">
               <ListItem>
                 <Avatar
                   variant='square'
@@ -71,14 +76,17 @@ const Nav = () => {
                 />
                 <ListItemText primary='Anitah Kimanzi' />
               </ListItem>
+              </Link>
             </Typography>
 
             <List className={classes.navitems}>
               {data.header.map((item, index) => (
-                <ListItem key={index}>
-                  <ListItemText primary={item.text} />
-                  <Divider />
-                </ListItem>
+                <a href={item.url} key={index} className={classes.link}>
+                  <ListItem>
+                    <ListItemText primary={item.text} />
+                    <Divider />
+                  </ListItem>
+                </a>
               ))}
             </List>
           </Toolbar>

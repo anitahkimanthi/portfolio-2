@@ -2,7 +2,7 @@ import { makeStyles , withStyles} from '@material-ui/core'
 import LinearProgress from '@material-ui/core/LinearProgress'
 
 
-const drawerWidth = 300
+const drawerWidth = 240
 
 export const headerStyles = makeStyles(theme => ({
   brand: {
@@ -44,6 +44,10 @@ export const headerStyles = makeStyles(theme => ({
     [theme.breakpoints.down('sm')]: {
       display: 'none'
     }
+  },
+  link: {
+    textDecoration : "none",
+    color: "inherit"
   }
 }))
 
@@ -81,8 +85,13 @@ export const footer = makeStyles(theme => ({
   button: {
     background: '#71180C',
     color: '#ffffff',
-    padding: theme.spacing(1),
-    border: 'none'
+    paddingRight: theme.spacing(5),
+    paddingLeft: theme.spacing(5),
+    paddingTop: theme.spacing(1),
+    paddingBottom: theme.spacing(1),
+    border: 'none',
+    borderRadius: "30px",
+    margin: "20px"
   },
   contactTitle: {
     fontSize: '3rem',
@@ -91,12 +100,13 @@ export const footer = makeStyles(theme => ({
   socialmedia: {
     display: 'flex'
   },
+
   socialItem: {
-    width: '5%',
+    marginRight: "20px",
     color: '#71180C'
   },
   socialIcons: {
-    color: '#71180C'
+    color: '#c2c2c2'
   }
 }))
 

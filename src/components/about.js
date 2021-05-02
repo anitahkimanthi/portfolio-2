@@ -12,8 +12,8 @@ function about () {
   const classes = aboutStyles()
 
   return (
-    <div className='col-12 col-sm-11 col-md-10  col-lg-8 about'>
-      <div direction='row' className={classes.wrapper}>
+    <div className='col-12 col-sm-11 col-md-10  col-lg-8 about' id="about">
+      <div className="row">
         <div className='col-12 col-md-7'>
           <Typography
             gutterBottom

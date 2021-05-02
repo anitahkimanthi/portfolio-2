@@ -11,12 +11,10 @@ function Banner () {
 
   return (
     <div className='col-12 nopadding banner'>
-      {/* <div className='image'>
-        <img className='img-fluid' src={bgimage} />
-      </div> */}
       <CardMedia
           alt=""
           image={bgimage}
+          className="img-fluid"
           title="Contemplative Reptile"
         >
 

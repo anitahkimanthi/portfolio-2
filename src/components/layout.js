@@ -2,7 +2,7 @@ import Header from './header'
 import Banner from './banner'
 import About from './about'
 import Skills from './skills'
-import Portfolio from './portfolio'
+import Portfolio from './websites'
 import Footer from './footer'
 
 function layout () {
