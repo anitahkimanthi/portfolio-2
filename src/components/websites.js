@@ -8,7 +8,6 @@ import {
   CardMedia,
   CardActionArea
 } from '@material-ui/core'
-import { Link } from 'react-router-dom'
 import { data } from '../data/data'
 
 function websites () {
@@ -20,14 +19,20 @@ function websites () {
         <div className='row'>
           <div className='col-12 text-center'>
             <h3 className='heading'>
-              <b>Some projects</b>
+              <b animate__animated animate__zoomIn>
+                Some projects
+              </b>
             </h3>
           </div>
         </div>
 
         <div className='row'>
           {projects.map((proj, i) => (
-            <div className='col-12 col-sm-6 col-md-4 projectCard'>
+            <div
+              className='col-12 col-sm-6 col-md-4 projectCard'
+              data-aos-duration='2000'
+              data-aos='zoom-in'
+            >
               <a href={proj.link}>
                 <Card className='cardInfo'>
                   <CardActionArea>

@@ -1,10 +1,5 @@
-import {
-  Typography,
-  Card,
-  CardContent,
-  Divider
-} from '@material-ui/core'
-import {data} from "../data/data"
+import { Typography, Card, CardContent, Divider } from '@material-ui/core'
+import { data } from '../data/data'
 import aboutbg from '../static/images/about.jpg'
 import { aboutStyles } from './styles'
 
@@ -12,9 +7,13 @@ function about () {
   const classes = aboutStyles()
 
   return (
-    <div className='col-12 col-sm-11 col-md-10  col-lg-8 about' id="about">
-      <div className="row">
-        <div className='col-12 col-md-7'>
+    <div className='col-12 col-sm-11 col-md-10  col-lg-8 about' id='about'>
+      <div className='row'>
+        <div
+          className='col-12 col-md-7'
+          data-aos-duration='1000'
+          data-aos='zoom-in'
+        >
           <Typography
             gutterBottom
             variant='h4'
@@ -28,7 +27,11 @@ function about () {
           </Typography>
         </div>
 
-        <div className='col-12 col-md-5'>
+        <div
+          className='col-12 col-md-5'
+          data-aos-duration='1000'
+          data-aos='zoom-in'
+        >
           <img
             alignItems='center'
             justify='center'
@@ -42,7 +45,11 @@ function about () {
       <Divider />
 
       <div className='row justify-content-center whatido'>
-        <div className='col-12 col-md-5'>
+        <div
+          className='col-12 col-md-5'
+          data-aos-duration='1000'
+          data-aos='zoom-in'
+        >
           <Card className={classes.card}>
             <CardContent>
               <Typography
@@ -55,13 +62,17 @@ function about () {
               </Typography>
 
               <Typography variant='body2' color='textSecondary' component='p'>
-              {data.about.design}
+                {data.about.design}
               </Typography>
             </CardContent>
           </Card>
         </div>
         <div className='col-12 col-md-2'></div>
-        <div className='col-12 col-md-5'>
+        <div
+          className='col-12 col-md-5'
+          data-aos-duration='1000'
+          data-aos='zoom-in'
+        >
           <Card className={classes.card}>
             <CardContent>
               <Typography
@@ -74,7 +85,7 @@ function about () {
               </Typography>
 
               <Typography variant='body2' color='textSecondary' component='p'>
-              {data.about.development}
+                {data.about.development}
               </Typography>
             </CardContent>
           </Card>

@@ -8,13 +8,17 @@ function Skills (props) {
   const skillsData = data.skills
 
   return (
-    <div className='col-12 centerColumn' id="skills">
+    <div className='col-12 centerColumn' id='skills'>
       <div className='row justify-content-center'>
         <div className='col-12 col-md-10 centerColumn'>
           <div className='row no-gutters'>
-            <div className='col-12 col-sm-5'>
-              <h2 className="heading">
-                <span className="tag">1</span>
+            <div
+              className='col-12 col-sm-5'
+              data-aos-duration='2000'
+              data-aos='fade-right'
+            >
+              <h2 className='heading'>
+                <span className='tag'>1</span>
                 <b>Technical Skills</b>
               </h2>
 
@@ -25,7 +29,7 @@ function Skills (props) {
                   alignItems='center'
                   className={classes.bar}
                 >
-                  <Box width='100%' mr={1} >
+                  <Box width='100%' mr={1}>
                     <span>{skill.heading}</span>
                     <BorderLinearProgress
                       variant='determinate'
@@ -49,9 +53,13 @@ function Skills (props) {
               />
             </div>
 
-            <div className='col-12 col-sm-5'>
-              <h2 className="heading">
-                <span className="tag">2</span>
+            <div
+              className='col-12 col-sm-5'
+              data-aos-duration='2000'
+              data-aos='fade-left'
+            >
+              <h2 className='heading'>
+                <span className='tag'>2</span>
                 <b>Design Skills</b>
               </h2>
               {skillsData.design.map((skill, index) => (

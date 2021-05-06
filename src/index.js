@@ -6,7 +6,9 @@ import NotFound from "./components/notfound";
 import Landingpage from "./components/layout";
 import "./static/css/App.css";
 import "bootstrap/dist/css/bootstrap.min.css"
-// import 'animate.css/animate.css'
+import 'animate.css/animate.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const history = createBrowserHistory();
 
@@ -28,3 +30,5 @@ ReactDom.render(
     <App/>,
     document.getElementById("root")
 )
+
+AOS.init();

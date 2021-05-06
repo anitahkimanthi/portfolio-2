@@ -49,6 +49,11 @@ width : 100%;
   background-color: #020235;
   color: #14bf98 !important;
   padding: 0 0 2% 0;
+  width: 100%
+}
+#skills{
+  background-color: #020235;
+  width: 100%
 }
 .centerColumn h2{
   color: #ffffff !important;
