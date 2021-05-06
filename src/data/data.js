@@ -109,6 +109,12 @@ export const data = {
   },
   projects: [
     {
+      image: wine,
+      title: 'Wine shop',
+      link: 'https://shopwine.netlify.app',
+      description: 'Dummy wine online shop'
+    },
+    {
       image: club,
       title: 'Club',
       link: 'https://openinstitute-university-club.netlify.app/home',
@@ -120,12 +126,7 @@ export const data = {
       link: 'https://scrajhomes.com/',
       description: 'Property listing website'
     },
-    {
-      image: wine,
-      title: 'Wine shop',
-      link: 'https://shopwine.netlify.app',
-      description: 'Dummy wine online shop'
-    },
+
     {
       image: god,
       title: "God's Palace International",
