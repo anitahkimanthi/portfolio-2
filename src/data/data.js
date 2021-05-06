@@ -110,9 +110,9 @@ export const data = {
   projects: [
     {
       image: wine,
-      title: 'Wine shop',
+      title: 'Online shop',
       link: 'https://shopwine.netlify.app',
-      description: 'Dummy wine online shop'
+      description: 'Dummy ecommerce website'
     },
     {
       image: club,
