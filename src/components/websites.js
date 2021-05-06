@@ -16,10 +16,10 @@ function websites () {
 
   return (
     <div className='websites'>
-      <div className='col-md-11 col-xl-10 projects' id="portfolio">
+      <div className='col-md-11 col-xl-10 projects' id='portfolio'>
         <div className='row'>
           <div className='col-12 text-center'>
-            <h3 className="heading">
+            <h3 className='heading'>
               <b>Some projects</b>
             </h3>
           </div>
@@ -65,6 +65,11 @@ function websites () {
               </a>
             </div>
           ))}
+          <div className='col-12 text-center'>
+            <a href='http://github.com/anitahkimanthi'>
+              <button className='more'>More projects</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

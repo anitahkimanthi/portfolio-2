@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .MuiAvatar-img {
   width: auto !important;
   height: auto !important;
@@ -11,10 +20,11 @@ body {
 /* header styles */
 .header a:hover{
 text-decoration: none;
-color : #71180C
+color : #14bf98 !important
 }
 .header a{
-  color : inherit
+  color : inherit;
+  font-weight: 900;
 }
 
 /* banner styles */
@@ -33,30 +43,32 @@ width : 100%;
 }
 
 .about h1{
-  color: #4b4b4b
+  color: #14bf98
 }
 .centerColumn{
   background-color: #020235;
-  color: #cecece !important;
+  color: #14bf98 !important;
   padding: 0 0 2% 0;
 }
-.centerColumn p{
-  color: #b43322 !important
+.centerColumn h2{
+  color: #ffffff !important;
 }
+
 .centerColumn span{
   margin-bottom: 10px !important;
 }
 .centerColumn .heading{
   display: flex;
-  font-size: 5vh;
   margin-top: 10%;
 }
 
 .centerColumn .heading .tag{
-  background-color: #71180C;
+  background-color: #14bf98;
   padding: 12px 17px;
   border-radius: 20px;
   margin-right: 20px;
+  color : #ffffff;
+  font-weight: 900;
   font-size: 14px;
 }
 .centerColumn span{
@@ -64,11 +76,13 @@ width : 100%;
 }
 
 .centerColumn p{
-  margin-top: 15px;
+  margin-top: 20px;
+  color: #14bf98 !important
+
 }
 /* skills styles */
 .MuiLinearProgress-bar{
-  background-color: #71180C !important;
+  background-color: #14bf98 !important;
 }
 
 /* footer styles */
@@ -86,17 +100,31 @@ width : 100%;
 }
 
 .introduction{
-  color: #ffffff;
+  color: #14bf98;
   text-align: center;
 }
 @media only screen  and (max-width: 567px){
   .introduction{
     padding: 30% 0 10% 0;
   }
+  .centerColumn .heading{
+    display: flex;
+    font-size: 5vw;
+    margin-top: 10%;
+  }
+  .centerColumn .heading b{
+    padding: 10px 0;
+
+  }
 }
 @media only screen  and (min-width: 568px){
   .introduction{
     padding: 10rem 0 7rem 0;
+  }
+  .centerColumn .heading{
+    display: flex;
+    font-size: 2vw;
+    margin-top: 10%;
   }
 }
 .introduction h1{
@@ -114,8 +142,8 @@ width : 100%;
   margin-top: 20px;
 }
 .projects .heading{
-  font-size: 7vh;
-  color: #4b4b4b
+  font-size: 5vh;
+  color: #14bf98
 }
 .projectCard a:hover{
   text-decoration: none;
@@ -126,7 +154,6 @@ background-color: none !important;
 .websites{
   padding: 4% 0 ;
   width: 100%;
-  background-color: #f8f8f8;
 }
 .cardFooter{
   background-color: #dfdfdf;
@@ -136,13 +163,25 @@ background-color: none !important;
 }
 .cardInfo{
   background-color: #f5f4f4!important;
+  border: 1px solid rgb(224, 224, 224)
 }
 
 .projectCard .cardFooter a:hover{
-  color: #71180C !important;
+  color: #14bf98 !important;
   text-decoration: none;
   background-color: none !important;
 }
 .cardFooter a span{
-  color: #71180C !important
+  color: #020235 !important
+}
+.more{
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  padding :  1% 10%;
+  color : #ffffff;
+  margin-top: 3%;
+  background-color: #14bf98;
+}
+.more:hover{
+  background-color: #020235;
 }

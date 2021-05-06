@@ -83,7 +83,7 @@ export const projects = makeStyles(theme => ({
 
 export const footer = makeStyles(theme => ({
   button: {
-    background: '#71180C',
+    background: '#14bf98',
     color: '#ffffff',
     paddingRight: theme.spacing(5),
     paddingLeft: theme.spacing(5),
@@ -95,7 +95,7 @@ export const footer = makeStyles(theme => ({
   },
   contactTitle: {
     fontSize: '3rem',
-    color: '#71180C'
+    color: '#14bf98'
   },
   socialmedia: {
     display: 'flex'
@@ -103,10 +103,10 @@ export const footer = makeStyles(theme => ({
 
   socialItem: {
     marginRight: "20px",
-    color: '#71180C'
+    color: '#14bf98'
   },
   socialIcons: {
-    color: '#c2c2c2'
+    color: '#14bf98'
   }
 }))
 
@@ -168,7 +168,7 @@ export const BorderLinearProgress = withStyles((theme) => ({
       borderRadius: 5,
     },
     colorPrimary: {
-      backgroundColor: theme.palette.grey[theme.palette.type === 'light' ? 200 : 700],
+      backgroundColor: "#ffffff",
     },
     bar: {
       borderRadius: 5,
