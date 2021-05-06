@@ -13,7 +13,7 @@ import wine from '../static/images/projects/wine.jpg'
 export const data = {
   about: {
     about:
-      "I'm a Front-end Developer, based in Nairobi, Kenya. I believe anything you can think of is surely possible in development. Building state-of-the-art, easy to use, user-friendly websites is my first priority. I have 3 years commercial experience working in technology companies and personal projects. When I'm not coding or designing, you will find me listening to good music or watching.",
+      "I believe anything you can think of is surely possible in development. Building state-of-the-art, easy to use, user-friendly websites is my first priority. I have 3 years commercial experience working in technology companies and personal projects. When I'm not coding or designing, you will find me listening to good music or watching.",
     design:
       'I pay attention to design principles and elements to bring about an elegant and stunning website that anyone would admire. I aim to combine both design and coding knowledge to produce high quality end product.',
     development:
