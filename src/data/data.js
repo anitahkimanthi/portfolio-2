@@ -67,11 +67,11 @@ export const data =  {
                 tag : "80"
             },
             {
-                heading : "JavaScript/Reactjs",
+                heading : "JavaScript / Reactjs",
                 tag : "90"
             },
             {
-                heading : "JavaScript/Vue",
+                heading : "JavaScript / Vue",
                 tag : "30"
             },
             {
@@ -79,30 +79,30 @@ export const data =  {
                 tag : "25"
             },
             {
-                heading : "Bootstrap/Materialize css/Material UI",
+                heading : "Bootstrap / Materialize css / Material UI",
                 tag : "85"
             }
         ],
         design : [
             {
                 heading : "Adobe InDesign",
-                tag : "80"
+                tag : "70"
             },
             {
                 heading : "Adobe XD",
-                tag : "90"
+                tag : "40"
             },
             {
                 heading : "Adobe Illustrator",
-                tag : "30%"
+                tag : "80"
             },
             {
                 heading : "Figma",
-                tag : "85"
+                tag : "80"
             },
             {
                 heading : "Canva",
-                tag : "70"
+                tag : "60"
             }
         ]
     },
